@@ -21,10 +21,6 @@ class TarefasConcluidas extends React.Component {
         this.abrirModalDeDescrição = this.abrirModalDeDescrição.bind(this);
     }
 
-    componentDidMount() {
-        // this.getListaDeTarefas(); 
-    }
-
     abrirModalDeDescrição = (tarefaSelecionada) => {
         this.setState({
             tarefaSelecionada: tarefaSelecionada,
